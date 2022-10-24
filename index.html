@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arduino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="titulo">
+      <div class="texto">
+        <h4>
+          Sensor 1 - LOC <br />
+          lateral direita
+        </h4>
+        <h1>CENTRAL DE SENSORES</h1>
+        <input type="checkbox" id="chk" onclick="mudaTema()" />
+        <label for="chk" class="switch">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <!-- testando js -->
+      <div id="area">
+        <button id="circle1" onclick="botao_1(), botao_2()"></button>
+      </div>
+
+      <!-- <div class="box" onclick="cliciu()">
+        <button id="circle1"></button>
+        <button id="circle2"></button>
+        <button id="circle3"></button>
+        <button id="circle4"></button>
+      </div>
+      <div class="box">
+        <button id="circle5"></button>
+        <button id="circle6"></button>
+        <button id="circle7"></button>
+        <button id="circle8"></button>
+      </div>
+      <div class="box">
+        <button id="circle9"></button>
+        <button id="circle10"></button>
+        <button id="circle11"></button>
+        <button id="circle12"></button>
+      </div> -->
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="">
+      <p id="log"></p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>

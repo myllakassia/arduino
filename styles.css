@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(119, 119, 119, 0.205);
+}
+.titulo {
+  border-width: 2px; /* Estiliza a sua largura*/
+  border-style: solid; /*Estiliza seu estilo*/
+  border-color: rgba(0, 0, 255, 0.589); /*Estiliza sua cor*/
+  border-radius: 20px;
+  box-shadow: 7px 7px 0px 0px rgba(128, 128, 128, 0.541);
+  text-align: center;
+  padding: 20px;
+
+  width: 100vh;
+}
+h1 {
+  font-size: 22px;
+}
+.texto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.texto-2 {
+  margin-top: -80px;
+  width: 120px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+button {
+  margin: 5px;
+  background-color: rgb(39, 202, 74);
+  border: none;
+  padding: 10px;
+  height: 65px;
+  width: 65px;
+  border-radius: 50px;
+}
+#chk {
+  display: none;
+}
+
+.switch {
+  position: relative;
+  background-color: #777;
+  width: 62px;
+  height: 34px;
+  border-radius: 20px;
+  display: flex;
+  padding: 5px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.slider {
+  position: absolute;
+  background-color: white;
+  border-radius: 30px;
+  width: 15px;
+  height: 24px;
+  transition: all 0.5s ease-in-out;
+}
+
+#chk:checked ~ .switch {
+  background-color: #acb9c9;
+}
+#chk:checked ~ .switch .slider {
+  transform: translateX(35px);
+}
+.box .box {
+  color: green;
+}
+
+div.tema {
+  display: flex;
+  background-color: #375b86;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .titulo {
+  color: #cfc5c5;
+  border-color: whitesmoke;
+  box-shadow: 7px 7px 0px 0px rgba(230, 223, 223, 0.425);
+}
