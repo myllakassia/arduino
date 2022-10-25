@@ -101,3 +101,15 @@ div.tema {
   border-color: whitesmoke;
   box-shadow: 7px 7px 0px 0px rgba(230, 223, 223, 0.425);
 }
+
+.color-blue {
+  background-color: blue;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.color-green {
+  background-color: green;
+  cursor: pointer;
+  transition: 0.4s;
+}
